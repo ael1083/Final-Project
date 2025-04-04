@@ -2,9 +2,9 @@
 
 # Qiime2 Microbiome Analysis
 
-## group members
-Molly Dugan 
-Alexandria Lyden 
+## Group Members
+Molly Dugan,
+Alexandria Lyden, 
 Phaedra Stemp 
 
 ## Background 
