@@ -138,4 +138,37 @@ qiime taxa barplot \
 
 
 #Differential Abundance Testing with ANCOM-BC
-#
+#ANCOM-BC is a compositionally-aware linear regression model that allows testing for differentially abundant features across sample groups while also implementing bias correction.
+
+qiime feature-table filter-samples \
+  --i-table asv-table-ms2.qza \
+  --m-metadata-file metadata.tsv \
+  --p-where '[sample_type] IN ("duckweed", "water")' \
+  --o-filtered-table asv-table-ms2-dominant-sample-types.qza
+
+#collapse ASVs into genera w/ taxa collapse
+
+qiime taxa collapse \
+  --i-table asv-table-ms2-dominant-sample-types.qza \
+  --i-taxonomy taxonomy.qza \
+  --p-level 6 \
+  --o-collapsed-table genus-table-ms2-dominant-sample-types.qza
+
+#apply differential abundance testing
+#apply ANCOM-BC to see which genera are differentially abundant across those sample types
+
+qiime composition ancombc \
+  --i-table genus-table-ms2-dominant-sample-types.qza \
+  --m-metadata-file metadata.tsv \
+  --p-formula sample_type \
+  --p-reference-levels 'smaple_type::duckweed' \
+  --o-differentials genus-ancombc.qza
+
+#visualize differentially abundant genera
+
+qiime composition da-barplot \
+  --i-data genus-ancombc.qza \
+  --p-significance-threshold 0.001 \
+  --p-level-delimiter ';' \
+  --o-visualization genus-ancombc.qzv
+
