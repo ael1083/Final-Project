@@ -109,8 +109,8 @@ With the analysis above, the following can be performed:
 </details></details>
 
 <details> <summary><H1> Code </H1></summary>
+  
 ```bash
-
 ```
 
 </details></details>
