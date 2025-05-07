@@ -78,7 +78,8 @@ This tool applied differential abundance testing to the genera of the samples. I
 ### Composition DA-Barplot
 This tool took the abundance metadata file and created a visualization. It used a delimiter to sort each sample abundance and create a bar plot of abundance. The output was a qzv file that showed the relative abundance of genera in one sample compared to the other. It was visualized using Qiime2 View.
 
-## Results
+<details> <summary><H1> Results </H1></summary>
+
 With the analysis above, the following can be performed:
 
 <details> <summary><H3> Demultiplexed Sequence Counts Summary </H3></summary>
