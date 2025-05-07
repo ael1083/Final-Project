@@ -94,7 +94,7 @@ Explain
 
 <details> <summary><H3> Taxonomy Summary </H3></summary>
 
-![]()
+![](https://github.com/ael1083/Final-Project/blob/main/images/Taxonomy%20bar%20chart.png?raw=true)
 
 Explain
 
