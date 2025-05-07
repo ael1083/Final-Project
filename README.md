@@ -86,7 +86,7 @@ With the analysis above, the following can be performed:
 
 <details> <summary><H3> Demultiplexed Sequence Counts Summary </H3></summary>
 
-![](Demux Forward Reads.png)
+![]([Demux Forward Reads.png](https://github.com/ael1083/Final-Project/blob/b85a888a0ea74962095821d5aacfc5a812d46339/Demux%20Forward%20Reads.png))
 
 Explain
 
@@ -94,13 +94,25 @@ Explain
 
 <details> <summary><H3> Taxonomy Summary </H3></summary>
 
+![]()
+
+Explain
+
 </details>
 
 <details> <summary><H3> Phylogenetic Tree </H3></summary>
 
+![]()
+
+Explain
+
 </details>
 
 <details> <summary><H3> Alpha Rarefaction </H3></summary>
+
+![](alpha_rarefication plot.png)
+
+Explain
 
 </details>
 
