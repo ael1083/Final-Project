@@ -106,8 +106,14 @@ With the analysis above, the following can be performed:
 
 </details>
 
-## Code
+</details></details>
+
+<details> <summary><H1> Code </H1></summary>
 ```bash
 
 ```
-## Bibliography
+</details></details>
+
+<details> <summary><H1> Bibliography </H1></summary>
+
+</details></details>
