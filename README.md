@@ -1,6 +1,4 @@
-# Final Project
-
-# Qiime2 Microbiome Analysis
+# Final Project: Qiime2 Microbiome Analysis
 
 ## Group Members
 Molly Dugan,
