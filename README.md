@@ -81,27 +81,27 @@ This tool took the abundance metadata file and created a visualization. It used 
 ## Results
 With the analysis above, the following can be performed:
 
-<details> <summary><H2> Demultiplexed Sequence Counts Summary </H2></summary>
+<details> <summary><H3> Demultiplexed Sequence Counts Summary </H3></summary>
 
 </details>
 
-<details> <summary><H2> Taxonomy Summary </H2></summary>
+<details> <summary><H3> Taxonomy Summary </H3></summary>
 
 </details>
 
-<details> <summary><H2> Phylogenetic Tree </H2></summary>
+<details> <summary><H3> Phylogenetic Tree </H3></summary>
 
 </details>
 
-<details> <summary><H2> Alpha Rarefaction </H2></summary>
+<details> <summary><H3> Alpha Rarefaction </H3></summary>
 
 </details>
 
-<details> <summary><H2> kmer Diversity Summary </H2></summary>
+<details> <summary><H3> kmer Diversity Summary </H3></summary>
 
 </details>
 
-<details> <summary><H2> Abundant Genera </H2></summary>
+<details> <summary><H3> Abundant Genera </H3></summary>
 
 </details>
 
