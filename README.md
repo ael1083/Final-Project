@@ -86,7 +86,7 @@ With the analysis above, the following can be performed:
 
 <details> <summary><H3> Demultiplexed Sequence Counts Summary </H3></summary>
 
-![](Demux Forward Reads.png)
+![](images/Demux Forward Reads.png)
 
 Explain
 
