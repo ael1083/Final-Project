@@ -86,7 +86,7 @@ With the analysis above, the following can be performed:
 
 <details> <summary><H3> Demultiplexed Sequence Counts Summary </H3></summary>
 
-![]([Demux Forward Reads.png](https://github.com/ael1083/Final-Project/blob/b85a888a0ea74962095821d5aacfc5a812d46339/Demux%20Forward%20Reads.png))
+![](Demux Forward Reads.png)
 
 Explain
 
@@ -116,11 +116,19 @@ Explain
 
 </details>
 
-<details> <summary><H3> kmer Diversity Summary </H3></summary>
+<details> <summary><H3> kmer Scatter Plot </H3></summary>
+
+![](kmer Scatter Plot.png)
+
+Explain
 
 </details>
 
 <details> <summary><H3> Abundant Genera </H3></summary>
+
+![](abundant genera visualization.png)
+
+Explain
 
 </details>
 
