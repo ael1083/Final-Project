@@ -110,7 +110,7 @@ Explain
 
 <details> <summary><H3> Alpha Rarefaction </H3></summary>
 
-![](alpha_rarefication plot.png)
+![](https://github.com/ael1083/Final-Project/blob/main/images/alpha_rarefication%20plot.png?raw=true)
 
 Explain
 
@@ -118,7 +118,7 @@ Explain
 
 <details> <summary><H3> kmer Scatter Plot </H3></summary>
 
-![](kmer Scatter Plot.png)
+![](https://github.com/ael1083/Final-Project/blob/main/images/kmer%20Scatter%20Plot.png?raw=true)
 
 Explain
 
@@ -126,7 +126,7 @@ Explain
 
 <details> <summary><H3> Abundant Genera </H3></summary>
 
-![](abundant genera visualization.png)
+![](https://github.com/ael1083/Final-Project/blob/main/images/abundant%20genera%20visualization.png?raw=true)
 
 Explain
 
