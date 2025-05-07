@@ -79,6 +79,24 @@ This tool applied differential abundance testing to the genera of the samples. I
 This tool took the abundance metadata file and created a visualization. It used a delimiter to sort each sample abundance and create a bar plot of abundance. The output was a qzv file that showed the relative abundance of genera in one sample compared to the other. It was visualized using Qiime2 View.
 
 ## Results
+With the analysis above, the following can be performed:
+
+<details> <summary><H2> Demultiplexed Sequence Counts Summary </H2></summary>
+
+
+<details> <summary><H2> Taxonomy Summary </H2></summary>
+
+
+<details> <summary><H2> Phylogenetic Tree </H2></summary>
+
+
+<details> <summary><H2> Alpha Rarefaction </H2></summary>
+
+
+<details> <summary><H2> kmer Diversity Summary </H2></summary>
+
+
+<details> <summary><H2> Abundant Genera </H2></summary>
 
 ## Code
 ```bash
