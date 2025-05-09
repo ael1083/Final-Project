@@ -88,6 +88,39 @@ qiime feature-classifier classify-sklearn \
   --i-reads asv-seqs-ms2.qza \
   --o-classification taxonomy.qza
 
+#Install new Qiime environment and yml file
+conda env create -n qiime2-amplicon-2024.10 --file https://data.qiime2.org/distr
+o/amplicon/qiime2-amplicon-2024.10-py310-linux-conda.yml
+conda activate qiime2-amplicon-2024.10
+
+#Install empress
+pip install --user empress
+qiime dev refresh-cache
+
+#Create rooted-tree
+nohup qiime phylogeny align-to-tree-mafft-fasttree \
+  --p-n-threads 20 \
+  --i-sequences asv-seqs.qza \
+  --o-alignment aligned-asv-seq.qza \
+  --o-masked-alignment masked-aligned-asv-seq.qza \
+  --o-tree unrooted-tree.qza \
+  --o-rooted-tree rooted-tree.qza &
+
+#Adds taxonomy to the tree
+qiime empress tree-plot \
+   --i-tree rooted-tree.qza \
+   --m-feature-metadata-file taxonomy.qza \
+   --o-visualization empress-tree-tax.qzv
+
+#Adds taxonomy and metadata to tree
+qiime empress community-plot \
+   --p-filter-missing-features \
+   --i-tree rooted-tree.qza \
+   --i-feature-table asv-table-ms2.qza \
+   --m-sample-metadata-file metadata.tsv \
+   --m-feature-metadata-file taxonomy.qza \
+   --o-visualization empress-tree-tax-table.qzv
+
 #Downstream Data Analysis
 #Kmerization of features
 
