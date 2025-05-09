@@ -338,7 +338,9 @@ qiime composition da-barplot \
 
 <details> <summary><H2> Bibliography </H2></summary>
 
-- This project is based off of the [qiime2 Gut-to-soil axis tutorial](https://amplicon-docs.qiime2.org/en/latest/tutorials/gut-to-soil.html#FvS2KInpQE)
-- 
+- This project followed the [qiime2 Gut-to-soil axis tutorial](https://amplicon-docs.qiime2.org/en/latest/tutorials/gut-to-soil.html#FvS2KInpQE)
+- [qiime2view](https://view.qiime2.org/) is a website used to visualize qzv files
+- [chatGPT](https://chatgpt.com/) helps explain what all the inputs do, outputs mean, and what can be done wtih them
+- [q2-boots](https://library.qiime2.org/plugins/caporaso-lab/q2-boots) website gives information on the q2-boots qiime plugin
 
 </details></details>
