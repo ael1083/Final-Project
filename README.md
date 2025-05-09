@@ -58,7 +58,14 @@ This command activated the Boots environment that was previously downloaded. It 
 ### Boots Kmer-Diversity
 This tool was used to bootstrap and provide rarefication-based alpha and beta diversity analyses. It took the amplicon sequence variant sequences and metadata and created diversity metrics for the specified samples and sample depth, along with confidence intervals for these metrics. The output was a qzv scatterplot in a new directory that showed the diversity of the samples.
 
-### Tree Stuff
+### Qiime Phylogeny Align-to-tree-mafft-fasttree
+This tool is a pipeline that constructs a phylogenetic tree from a set of 16S rRNA marker genes. It aligns the input sequences, removes highly variable positions, builds a maximum-likelihood tree, and produces a midpoint-rooted tree.
+
+### Qiime Empress Tree-plot
+This tool generates an interactive visualization of a phylogenetic tree annotated with a taxonomy file.
+
+### Qiime Empress Community-plot
+This tool generates an interactive, multi-panel visualization that combines a phylogenetic tree and taxonomy file.
 
 ### Diversity Alpha-Rarefication
 This tool took the sorted amplicon sequence variants and investigated the diversity in relation to the specified maximum sequence depth. It took the sorted amplicon sequence variants and metadata and created a qzv visual plot, showing different diversity metrics at multiple sampling depths. The output was a qzv graph showing the diversity metrics, which was visualized using Qiime2 View.
