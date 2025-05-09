@@ -338,4 +338,7 @@ qiime composition da-barplot \
 
 <details> <summary><H2> Bibliography </H2></summary>
 
+- This project is based off of the [qiime2 Gut-to-soil axis tutorial](https://amplicon-docs.qiime2.org/en/latest/tutorials/gut-to-soil.html#FvS2KInpQE)
+- 
+
 </details></details>
