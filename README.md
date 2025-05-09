@@ -5,12 +5,12 @@ Molly Dugan,
 Alexandria Lyden, 
 Phaedra Stemp 
 
-<details> <summary><H1> Background </H1></summary>
+<details> <summary><H2> Background </H2></summary>
 The data for this analysis was provided by a UNH grad student studying duckweed microbiome composition. It consisted of 16s data in paired-end 250 bp reads that were amplified by Illumina HiSeq 2500. The files were made up of 20 samples from two different pond locations. Sample treatments were either taken directly from the duckweed on the pond, or from the pond water itself. There were 5 replicates taken from each of the sample treatments. With this data, we wanted to analyze the microbiome composition differences between samples. The goal was to compare and contrast the microbiomes between the replicates with the same treatment, as well as between the two different treatments.
 
 </details></details>
 
-<details> <summary><H1> Methods </H1></summary>
+<details> <summary><H2> Methods </H2></summary>
 The data used in this project was provided by a grad student studying duckweed. It consisted of 250 bp paired-end reads, sequenced using Illumina HiSeq 2500. All analysis done on this data was done on RON through the University of New Hampshire. All use of RON was performed on the personal laptops of each group member. Multiple tools within RON were used to create a pipeline, and perform the following analyses.
 
 ### Source Activate qiime2-amplicon-2024.5
@@ -80,7 +80,7 @@ This tool took the abundance metadata file and created a visualization. It used 
 
 </details></details>
 
-<details> <summary><H1> Results </H1></summary>
+<details> <summary><H2> Results </H2></summary>
 
 With the analysis above, the following can be performed:
 
@@ -134,7 +134,7 @@ Explain
 
 </details></details>
 
-<details> <summary><H1> Code </H1></summary>
+<details> <summary><H2> Code </H2></summary>
   
 ```bash
 source activate qiime2-amplicon-2024.5
@@ -329,6 +329,6 @@ qiime composition da-barplot \
 
 </details></details>
 
-<details> <summary><H1> Bibliography </H1></summary>
+<details> <summary><H2> Bibliography </H2></summary>
 
 </details></details>
