@@ -342,5 +342,6 @@ qiime composition da-barplot \
 - [qiime2view](https://view.qiime2.org/) is a website used to visualize qzv files
 - [chatGPT](https://chatgpt.com/) helps explain what all the inputs do, outputs mean, and what can be done wtih them
 - [q2-boots](https://library.qiime2.org/plugins/caporaso-lab/q2-boots) website gives information on the q2-boots qiime plugin
+- [Canva](https://www.canva.com/) was a good website to make the workflow visualization
 
 </details></details>
