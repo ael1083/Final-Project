@@ -13,6 +13,12 @@ The data for this analysis was provided by a UNH grad student studying duckweed 
 <details> <summary><H2> Methods </H2></summary>
 The data used in this project was provided by a grad student studying duckweed. It consisted of 250 bp paired-end reads, sequenced using Illumina HiSeq 2500. All analysis done on this data was done on RON through the University of New Hampshire. All use of RON was performed on the personal laptops of each group member. Multiple tools within RON were used to create a pipeline, and perform the following analyses.
 
+<details> <summary><H4> Workflow Visualization </H4></summary>
+  
+![](https://github.com/user-attachments/assets/a49110e5-a244-420d-9625-9b9bb1743e8c)
+
+</details>
+
 ### Source Activate qiime2-amplicon-2024.5
 This command activated the qiime2 environment. This provided access to all the tools used in the following steps of the pipeline.
 
