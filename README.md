@@ -15,7 +15,7 @@ The data used in this project was provided by a grad student studying duckweed. 
 
 <details> <summary><H4> Workflow Visualization </H4></summary>
   
-![](https://github.com/user-attachments/assets/a49110e5-a244-420d-9625-9b9bb1743e8c)
+![](https://github.com/ael1083/Final-Project/blob/main/images/new%20workflow.png?raw=true)
 
 </details>
 
