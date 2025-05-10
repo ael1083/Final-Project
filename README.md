@@ -101,7 +101,7 @@ With the analysis above, the following can be performed:
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/Demux%20Forward%20Reads.png?raw=true)
 
-Explain
+This visualization shows a bar chart comparing the number of sequences and number of samples. There is a large peak of 7 samples that consist of 300,000-400,000 sequences. This chart helped to determine where to trim the reads.
 
 </details>
 
@@ -109,7 +109,7 @@ Explain
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/Taxonomy%20bar%20chart.png?raw=true)
 
-Explain
+This bar chart shows the relative frequency of each species found in each sample. All samples had a high frequency of Proteobacteria and an unspecified bacteria. Water samples appear to have high frequencies of Bacteroidetes and Firmicutes as well.
 
 </details>
 
@@ -117,7 +117,7 @@ Explain
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/Phylogenetic%20Tree.png?raw=true)
 
-Explain
+This tree was visualized using the qiime2view website. The tree shows that most of the bacteria from each sample come from an Unspecified bacteria. There is a large portion of the bacteria descended from Cyanobacteria and Bacteroidetes.
 
 </details>
 
@@ -125,7 +125,7 @@ Explain
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/alpha_rarefication%20plot.png?raw=true)
 
-Explain
+This chart shows the diversity metrics at different sequencing depths. The duckweed samples peak at a sequencing depth of about 5000 and platau at about 750 observed features. The water samples peak at a sequencing depth of 5000 and platau at 775 observed features until a sequencing depth of 20000. At sequencing depth 20000, observed features increases to about 900.
 
 </details>
 
@@ -133,7 +133,7 @@ Explain
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/kmer%20Scatter%20Plot.png?raw=true)
 
-Explain
+This scatterplot shows the duckweed and water samples on a braycurtis Axis 1 vs braycurtis Axis 2 plot. There is a grouping of water samples at approximately (0.3, -0.25) and at (0.3, 0.25). There is a grouping of duckweed samples at approximately (-0.3, -0.05) and at (-0.2, 0.075).
 
 </details>
 
@@ -141,7 +141,7 @@ Explain
 
 ![](https://github.com/ael1083/Final-Project/blob/main/images/abundant%20genera%20visualization.png?raw=true)
 
-Explain
+This chart shows the Log Fold Change (LFC) of water samples vs the bacteria species determined to be in all samples. In water, Methanoculleus, Euryarchaeota, Syntrophorhabdaceae, Mathanomicroviales, an an Unassigned bacteria are enriched, while the rest of the bacteria are depleted. The depleted bacteria shown are those that are enriched in the duckweed samples.
 
 </details>
 
